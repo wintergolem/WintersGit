@@ -1,0 +1,1209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\AssimpPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TerragenLoader.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaLoader.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaParser.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaExporter.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IRRLoader.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IRRMeshLoader.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IRRShared.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\M3Importer.cpp">
+      <Filter>M3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OFFLoader.cpp">
+      <Filter>OFFFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileImporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileParser.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjExporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OgreImporter.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OgreMaterial.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OgreMesh.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OgreSkeleton.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PlyLoader.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PlyParser.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PlyExporter.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RawLoader.cpp">
+      <Filter>Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\UnrealLoader.cpp">
+      <Filter>Unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XFileImporter.cpp">
+      <Filter>XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XFileParser.cpp">
+      <Filter>XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderLoader.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderDNA.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderScene.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderModifier.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\AssimpPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ByteSwap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\StdOStreamLogStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\IOStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TerragenLoader.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaHelper.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaLoader.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaParser.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ColladaExporter.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IRRLoader.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IRRMeshLoader.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IRRShared.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\M3Importer.h">
+      <Filter>M3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OFFLoader.h">
+      <Filter>OFFFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileData.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileImporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileMtlImporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjFileParser.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjTools.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\ObjExporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OgreImporter.hpp">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\OgreXmlHelper.hpp">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PlyLoader.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PlyParser.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\PlyExporter.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\RawLoader.h">
+      <Filter>Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\UnrealLoader.h">
+      <Filter>Unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XFileHelper.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XFileImporter.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XFileParser.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MD4FileData.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderLoader.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderDNA.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderDNA.inl">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderScene.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderSceneGen.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderIntermediate.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BlenderModifier.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\math\common_factor_rt.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\foreach.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\format.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\scoped_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\scoped_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\shared_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\shared_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\make_shared.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\static_assert.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\BoostWorkaround\boost\tuple\tuple.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\asd\Documents\OpenGL-tutorial_v0012_33\external\assimp-3.0.1270\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D840B9D4-282F-49B6-A128-6706A01397C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AC2F762A-63BE-49AB-9938-A15609AD4D73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{CD953AE5-4618-4028-92D5-62BA4D0B3BD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{547B8F0F-2B8B-4993-B73F-7868628F00FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{4DE0D98E-2E08-4893-836A-51770A1CA3D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5DF75933-483B-4CD2-98A3-EB215B8B8FBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{FB5E340E-A459-4B0E-BB2A-9BC7F80318EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{34D8386C-D6EA-453D-A6D6-3A57B46AAC29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{7FF26F62-267F-491B-B6C9-1173CF37D1D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{1B4E953C-9FC7-4A54-999B-956DE2300D47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{70BAC442-DFAB-415C-B831-9D057AF40EAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collada">
+      <UniqueIdentifier>{51FC45C8-A646-4A9A-9600-54FBA63D3855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{8F5FFC5A-A4F7-40DE-AA12-94B813EB2565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{DB47A475-7430-480B-BDB3-F514B283912F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{D714E425-4192-4EE2-AE12-9255EC8E835A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irr">
+      <UniqueIdentifier>{DF33BE79-0AEC-4F19-A32D-8403D4673071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{F8C73BB1-B91F-4E21-886D-841D38EDBA78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{7BB2E561-5EF0-4B1D-B5A7-5A05D093BC0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M3">
+      <UniqueIdentifier>{38432C8D-50A6-410D-B60F-A85B9C891150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{11A9DD60-4839-4FFA-B9AA-7E27E32C6B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{EE1EFA5A-3719-45B3-98C3-E4C9BD5CDB33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{BDCAB948-DB96-49A9-9EC2-48E7E1158525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{638FFE62-4837-4483-B47D-424713833904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{D78D4360-0D56-464D-B7EE-AFE7525F16BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{D1DB72AB-0E96-4D7A-9B13-B4D19577D7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{02D38EA9-01FB-4187-8E96-920315D8CB2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{B048A732-E13D-4EE8-ACC3-303271AF694F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFFFormat">
+      <UniqueIdentifier>{BC8AC9D0-9066-4F58-A964-D5107C726E6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{E41097AD-E3A8-4A29-BFA9-3FCB6758CDA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre">
+      <UniqueIdentifier>{268E519C-3894-4A6C-BA82-B28C3713A6DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ply">
+      <UniqueIdentifier>{126F4817-5527-43D8-AD31-EAC967FFFD4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{2AB9FBCB-DC20-4C70-9661-FF8FCF485CB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{79186122-D814-48ED-91C6-671F941ADCF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLENDER">
+      <UniqueIdentifier>{3952A5DE-DB14-49EC-BE4E-3D7C29C3EDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{86AF70EE-10D0-448A-B3BA-C2E9B65726E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{9A44B6D3-0C35-4AFC-9000-17164EA8D7B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{08B1EBCA-FBEC-4508-A44E-4CA0268E01EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{825D5F49-A1DD-467A-9FD7-F09174C6F87A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{FD96250F-7EC4-46A3-B9DE-5775EED5D028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Raw">
+      <UniqueIdentifier>{CB322C3A-5F6C-4962-8ED8-2A8C3F839528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{A70CDE58-86D8-4184-B638-2AF9FA029B9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{F0EDE241-88E6-41A7-A816-D647A812AD49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal">
+      <UniqueIdentifier>{1E3D38FF-ABDD-4F49-86BB-0601A3031E50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XFile">
+      <UniqueIdentifier>{4D0EBE4C-30F7-46B8-83B7-9DB0998A683C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{2F5B1BAA-F03A-4FE1-9678-5044048212C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{1010048A-00F6-4A78-B166-450108EF1D5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{1D9E0E8D-0520-49AA-9096-5EE39DD0A2A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{D3E8C960-7D70-42A0-8689-910EC22C28BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{BA444F49-CEF5-4EF2-ADDB-0F658CE8311B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{0EFC9C31-7A20-470A-96C8-90CC8FE4BBC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{5DDC48E4-6FA5-45A1-A3B1-F86748EE44ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

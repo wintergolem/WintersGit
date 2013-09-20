@@ -1,0 +1,32 @@
+//////////////////////////////////////////////////////////////////////////
+// Author:	Justin Loudermilk		
+// Date:	December 6 2012
+// Brief:	This class is here to put some of the Topic2 labs together  
+//			I took the layout from Visualiser because it was good
+//////////////////////////////////////////////////////////////////////////
+#ifndef __TOPIC2_H_
+#define __TOPIC2_H_
+//////////////////////////////////////////////////////////////////////////
+#include <windows.h>
+#include <GL/glew.h>
+#include "Utilities.h"
+
+namespace AIE
+{
+
+
+const unsigned int DEPTH = 100;
+const GLuint TOTAL_VERTICES = (DEPTH -1) * DEPTH * 2;
+
+
+// Topic2 class for visualising lines / tris
+
+void Build3DMesh( unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_ruiIBO);
+
+};
+
+
+
+//////////////////////////////////////////////////////////////////////////
+#endif // __TOPIC2_H_
+//////////////////////////////////////////////////////////////////////////

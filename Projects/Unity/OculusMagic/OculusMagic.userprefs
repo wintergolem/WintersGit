@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomAssets\Scripts\FPCScript.cs">
+    <Files>
+      <File FileName="Assets\CustomAssets\Scripts\MoveableObj.cs" Line="19" Column="66" />
+      <File FileName="Assets\CustomAssets\Scripts\FPCScript.cs" Line="23" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

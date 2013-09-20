@@ -1,0 +1,31 @@
+Initialize engine version: 4.1.2f1 (911c7369eeac)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx64.dll 8.17.10.1116]
+    Renderer: AMD Radeon HD 7640G
+    Vendor:   ATI
+    VRAM:     1257 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Wintergolem\Desktop\FinalProjectUnity\FinalProjectUnity\PopulationZ_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.143 seconds
+desktop: 1360x768 60Hz; virtual: 1360x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 145.
+Total: 3.525600 ms (FindLiveObjects: 0.018356 ms CreateObjectMapping: 0.038873 ms MarkObjects: 0.335282 ms  DeleteObjects: 0.081526 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 152.
+Total: 3.270223 ms (FindLiveObjects: 0.019436 ms CreateObjectMapping: 0.022136 ms MarkObjects: 0.352560 ms  DeleteObjects: 0.005938 ms)
+
