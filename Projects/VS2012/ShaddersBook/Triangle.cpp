@@ -23,6 +23,15 @@ void Draw()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 
+	mat4 rotationMatrix = glm::rotate( mat4(1.0f), angle, vec3(0.0f,0.0f,1.0f) );
+
+	GLuint location = glfwGetUniformLocation( programHandle, "RotationMatrix");
+
+	if( location >= 0)
+	{
+		glUniformMatrix4fv(location, 1, GL_FALSE, &rotationMatrix[0][0]);
+	}
+
 	glBindVertexArray(vaoHandle);
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
