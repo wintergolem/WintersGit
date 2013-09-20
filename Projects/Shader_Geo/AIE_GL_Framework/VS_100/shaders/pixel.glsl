@@ -2,14 +2,14 @@
 
 // very simple pixel shader that just samples a texture
 
-in vec2 vUV;
+in vec4 gColor;
+in vec2 gUV;
 
-out vec4 outColour;
+out vec4 outColor;
 
-uniform sampler2D de;
-uniform sampler2D da;
+
 
 void main()
 {
-    outColour = texture2D(de, vUV);
+	outColor = gColor;
 }

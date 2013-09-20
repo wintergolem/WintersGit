@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4BC54D7F-4577-40A3-9B74-92E72FB8AB9E}</ProjectGuid>
     <RootNamespace>AIE_GL_Framework</RootNamespace>
+    <ProjectName>Shader_Geometry</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -94,11 +95,13 @@
     <ClCompile Include="..\..\source\Utilities.cpp" />
     <ClCompile Include="..\..\source\Visualiser.cpp" />
     <ClCompile Include="..\source\main.cpp" />
+    <ClCompile Include="..\source\Topic2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\MathHelper.h" />
     <ClInclude Include="..\..\include\Utilities.h" />
     <ClInclude Include="..\..\include\Visualiser.h" />
+    <ClInclude Include="..\source\Topic2.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\Geometry.glsl" />

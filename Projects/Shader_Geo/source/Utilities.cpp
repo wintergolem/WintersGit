@@ -170,7 +170,7 @@ unsigned int AIE::LoadShader(unsigned int a_uiInputAttributeCount, const char** 
 	// create 2 shader handles
 	GLuint vsHandle = glCreateShader(GL_VERTEX_SHADER);
 	GLuint fsHandle = glCreateShader(GL_FRAGMENT_SHADER);
-	GLuint gsHandle = glCreateShader(GL_GEOMETRY_SHADER);
+	GLuint gsHandle = 0;//glCreateShader(GL_GEOMETRY_SHADER);
 	GLuint tcsHandle = 0;
 	GLuint tesHandle = 0;
 
