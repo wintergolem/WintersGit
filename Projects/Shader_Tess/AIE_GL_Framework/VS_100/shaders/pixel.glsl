@@ -1,15 +1,10 @@
 #version 330
 
-// very simple pixel shader that just samples a texture
+uniform vec4 LineColor;
 
-in vec4 gColor;
-in vec2 gUV;
-
-out vec4 outColor;
-
-
+layout ( location = 0 ) out vec4 FragColor;
 
 void main()
 {
-	outColor = gColor;
+	FragColor = LineColor;
 }

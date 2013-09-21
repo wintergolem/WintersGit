@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4BC54D7F-4577-40A3-9B74-92E72FB8AB9E}</ProjectGuid>
     <RootNamespace>AIE_GL_Framework</RootNamespace>
-    <ProjectName>Shader_Geometry</ProjectName>
+    <ProjectName>Shader_Tess</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -106,6 +106,8 @@
   <ItemGroup>
     <None Include="shaders\Geometry.glsl" />
     <None Include="shaders\pixel.glsl" />
+    <None Include="shaders\TessellationControl.glsl" />
+    <None Include="shaders\TessellationEvaluation.glsl" />
     <None Include="shaders\vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
