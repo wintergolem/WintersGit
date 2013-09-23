@@ -7,9 +7,9 @@ in vec2 gUV;
 
 out vec4 outColor;
 
-
+uniform sampler2D diffuseTexture;
 
 void main()
 {
-	outColor = gColor;
+	outColor = texture(diffuseTexture, gUV);
 }

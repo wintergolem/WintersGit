@@ -1,6 +1,6 @@
 #version 330
 
-layout( isolines ) in;
+layout( quads, equal_spacing, ccw ) in;
 
 uniform mat4 MVP; // projection * view * model
 
@@ -8,24 +8,20 @@ void main()
 {
 	//The tessellation u coordinate
 	float u = gl_TessCoord.x;
+	float v = gl_TessCorrd.y;
 
-	//the patch vertices (control points)
+	//the quad vertices
 	vec3 p0 = gl_in[0].gl_Position.xyz;
 	vec3 p1 = gl_in[1].gl_Position.xyz;
 	vec3 p2 = gl_in[2].gl_Position.xyz;
 	vec3 p3 = gl_in[3].gl_Position.xyz;
 
-	float u1 = (1.0 - u);
-	float u2 = u * U;
+	//Linear interpolation
+	gl_Position =
+		p0 * (1-u) * (1-v) +
+		p1 * u * (1-v) +
+		p3 * v * (1-u) +
+		p2 * u * v;
 
-	//Bernstein polynomials evaluated at u
-	float b3 = u2 * u;
-	float b2 = 3.0 * u2 * u1;
-	float b1 = 3.0 * u * u1 * u1;
-	float b0 = u1 * u1 * u1;
-
-	//Cubic Bezier interpolation
-	vec3 p = p0 * b0 + p1 * b1 + p2 * b2 + p3 * b3;
-
-	gl_Position = MVP * vec4(p, 1.0);
+	gl_Position = MVP * gl_Positin;
 }

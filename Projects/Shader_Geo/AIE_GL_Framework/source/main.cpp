@@ -15,6 +15,7 @@ void Init();
 void Shutdown();
 void Update();
 void Draw();
+void Build3DCude(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_ruiIBO);
 void BuildTriangle(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_ruiIBO);
 //GLuint = unsigned int
 GLuint g_ShaderID = 0;
@@ -31,8 +32,8 @@ mat4 g_ModelMatrix;
 mat4 g_CameraMatrix;
 
 float timeHolder = 0.0f;
-
 float g_fPhase = 0.0f;
+bool explode = true;
 
 //////////////////////////////////////////////////////////////////////////
 int main()
@@ -93,7 +94,7 @@ void Init()
 
 	// setup matrices
 	g_CameraMatrix.SetFrame( vec4(0,10,-10,1), vec4(0,-1,1,0), vec4(0,1,0,0));
-	g_ProjectionMatrix.Perspective(PI/6, 1200/720.0f, 0.1f, 100);
+	g_ProjectionMatrix.Perspective(PI/6, 1200/720.0f, 01.0f, 100);
 //	g_ProjectionMatrix.Orthographic(1280,720,0.1f,100);
 	g_ViewMatrix = g_CameraMatrix.ToViewMatrix();
 	g_ModelMatrix = mat4(1,0,0,0,
@@ -109,9 +110,8 @@ void Init()
 
 	// build 2-triangle plane
 	float fPlaneSize = 2.0f;
-	//Build3DPlane(fPlaneSize,g_VAO,g_VBO,g_IBO);
-	//BuildTriangle(g_VAO,g_VBO,g_IBO);
-	Build3DMesh(g_VAO,g_VBO,g_IBO);
+	Build3DCude(g_VAO,g_VBO,g_IBO);
+	//Build3DMesh(g_VAO,g_VBO,g_IBO);
 
 	// load texture
 	g_TextureID = LoadTexture("./images/crate_sideup.png", GL_BGRA);
@@ -134,7 +134,9 @@ void Init()
 	// set clear colour
 	glClearColor(0.25f,0.25f,0.25f,1);
 	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_CULL_FACE);
+	//glEnable(GL_CULL_FACE);
+	glCullFace(GL_FRONT_AND_BACK);
+	
 
 	// start our timer
 	AIE::ResetTimer();
@@ -153,21 +155,18 @@ void Update()
 	sfTimer += fDeltaTime;
 	timeHolder = glfwGetTime();
 
-	// clear the visualiser so we can add shapes this frame
-	//Visualiser::Get()->Clear();
-	
-	//////////////////////////////////////////////////////////////////////////
-	// example visualiser use
-	// line shapes
-	//Visualiser::Get()->AddDisk(vec4(-4,-1,4,1),2,8,vec4(0,1,0,0));
-	//Visualiser::Get()->AddHermiteSpline(vec4(-2,0,-3,1),vec4(2,0,-3,1),vec4(0,5,0,0),vec4(2,0,0,0),10,vec4(1,1,0,1));
+	/*g_fPhase += fDeltaTime;
+	if(g_fPhase >= PI){
+		g_fPhase = -PI;
+	}*/
 
-
-	g_fPhase += fDeltaTime;
-	if(g_fPhase == 0){
+	if(explode)
 		g_fPhase += fDeltaTime;
-		//g_fPhase = -PI;
-	}
+	else
+		g_fPhase -= fDeltaTime;
+
+	if(g_fPhase >= 10 || g_fPhase <= 0)
+		explode = !explode;
 	// tri shapes
 	//Visualiser::Get()->AddArc(vec4(0,0.5f,0,1),0,2,PI*0.25f,4,vec4(1,0,0,1),&g_ModelMatrix);
 	
@@ -186,6 +185,9 @@ void Draw()
 	g_ViewMatrix = g_CameraMatrix.ToViewMatrix();
 
 	// set current transforms in the shader
+	GLuint ProjectionID = glGetUniformLocation(g_ShaderID, "Projection");
+	glUniformMatrix3fv(ProjectionID, 1, false, g_ProjectionMatrix);
+
 	GLuint ViewID = glGetUniformLocation(g_ShaderID,"View");
 	glUniformMatrix4fv(ViewID, 1, false, g_ViewMatrix);
 
@@ -200,10 +202,11 @@ void Draw()
 	glUniform1f(TimeID, timeHolder );
 
 	// set active texture, bind the crate quad's buffers and draw it
-	//g_ModelMatrix.row3 = vec4(-4,0,0,1);
-	//glUniformMatrix4fv(ModelID, 1, false, g_ModelMatrix);
+	glActiveTexture(GL_TEXTURE0);
+	glBindTexture( GL_TEXTURE_2D, g_TextureID );
+
 	glBindVertexArray(g_VAO);
-	glDrawElements(GL_TRIANGLE_STRIP, 100000, GL_UNSIGNED_INT, 0);
+	glDrawElements(GL_TRIANGLES, 30, GL_UNSIGNED_INT, 0);
 
 	// draw the quad again at a different position
 	//g_ModelMatrix.row3 = vec4(4,0,0,1);
@@ -259,19 +262,51 @@ void BuildTriangle(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int&
 	glBindVertexArray(0);
 }
 
-void Build3DTri(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_ruiIBO)
+void Build3DCude(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_ruiIBO)
 {
-	float size = 5.0f;
-	AIE::Vertex aoVertices[4];
-	aoVertices[0].position = vec4 (0,size,0,1);
-	aoVertices[1].position = vec4 (-1*size,0,0,1);
-	aoVertices[2].position = vec4 (size,0,0,1);
 
-	unsigned int auiIndex[3] = { 
-		0,1,2
+	float size = 4.0f;
+	AIE::Vertex aoVertices[8];
+	aoVertices[0].position = vec4 (-1*size,size,0,1);
+	aoVertices[0].uv = vec2(0,0);
+	aoVertices[1].position = vec4 (-1*size,-1*size,0,1);
+	aoVertices[1].uv = vec2(1,0);
+	aoVertices[2].position = vec4 (size,-1*size,0,1);
+	aoVertices[2].uv = vec2(1,1);
+	aoVertices[3].position = vec4 (size,size,0,1);
+	aoVertices[3].uv = vec2(0,1);
+	aoVertices[4].position = vec4 (-1*size,size,size,1);
+	aoVertices[4].uv = vec2(0,0);
+	aoVertices[5].position = vec4 (-1*size,-1*size,size,1);
+	aoVertices[5].uv = vec2(1,0);
+	aoVertices[6].position = vec4 (size,-1*size,size,1);
+	aoVertices[6].uv = vec2(1,1);
+	aoVertices[7].position = vec4 (size,size,size,1);
+	aoVertices[7].uv = vec2(0,1);
+	const int sizeOfArray = 36;
+	unsigned int auiIndex[sizeOfArray] = { //for triangles
+		3,1,0,//front
+		1,3,2,
+		4,5,7,//back
+		5,6,7,
+		0,3,7,//top
+		7,4,0,
+		1,2,6,//bottom
+		1,5,6,
+		0,4,5,//left
+		5,1,0,
+		3,2,7,//right
+		2,6,7
 
-	
 	};
+	
+	//unsigned int auiIndex[sizeOfArray] = { //for triangle_strip
+	//	//start with top
+	//	0,3,7 , 4
+	//	5,6, // back side
+	//	2,7,3
+
+	//};
 
 	// create and bind buffers to a vertex array object
 	glGenBuffers(1, &a_ruiVBO);
@@ -282,8 +317,8 @@ void Build3DTri(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_
 	glBindBuffer(GL_ARRAY_BUFFER, a_ruiVBO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, a_ruiIBO);
 
-	glBufferData(GL_ARRAY_BUFFER, 4* sizeof(Vertex), aoVertices, GL_STATIC_DRAW);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, 3 * sizeof(unsigned int), auiIndex, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, 8* sizeof(Vertex), aoVertices, GL_STATIC_DRAW);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeOfArray * sizeof(unsigned int), auiIndex, GL_STATIC_DRAW);
 	
 	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, sizeof(Vertex), 0);	//index size type normalized stride pointer
 	glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), ((char*)0) + 16);
@@ -293,4 +328,6 @@ void Build3DTri(unsigned int& a_ruiVAO, unsigned int& a_ruiVBO, unsigned int& a_
 	
 	// unbind vertex array
 	glBindVertexArray(0);
+
+	glPolygonMode(GL_FRONT_AND_BACK,GL_LINES);
 }

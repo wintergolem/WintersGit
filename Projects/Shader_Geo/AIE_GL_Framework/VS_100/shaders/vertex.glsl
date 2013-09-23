@@ -23,7 +23,7 @@ void main()
 	vec4 pulse = position;
 	//pulse.y = position.y * sin(Phase);
 	//vColor = vec4(0,sin(sin(position.y)),sin(position.z), 1);
-	vColor = vec4(0.3f,0.3f,0.3f,1);
+	//vColor = vec4(0.3f,0.3f,0.3f,1);
 	vUV = UV;
 	gl_Position = Projection * View * Model * pulse;
 }

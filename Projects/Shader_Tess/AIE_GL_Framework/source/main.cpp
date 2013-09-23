@@ -35,8 +35,9 @@ mat4 g_ModelMatrix;
 mat4 g_CameraMatrix;
 
 float timeHolder = 0.0f;
-
 float g_fPhase = 0.0f;
+float Inner = 2;
+float Outer = 2;
 
 //////////////////////////////////////////////////////////////////////////
 int main()
@@ -47,6 +48,14 @@ int main()
 	// get the desktop mode
 	GLFWvidmode oMode;
 	glfwGetDesktopMode(&oMode);
+
+	// Select OpenGL 3.2 with a forward compatible core profile.
+	/*glfwOpenWindowHint( GLFW_OPENGL_VERSION_MAJOR, 4 );
+	glfwOpenWindowHint( GLFW_OPENGL_VERSION_MINOR, 3 );
+	glfwOpenWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+	glfwOpenWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+	glfwOpenWindowHint(GLFW_WINDOW_NO_RESIZE, GL_TRUE);
+	glfwOpenWindowHint(GLFW_FSAA_SAMPLES, 8);*/
 
 	// open a window
 	glfwOpenWindow(	1280, 720,	// resolution
@@ -126,6 +135,8 @@ void Init()
 	GLuint ModelID = glGetUniformLocation(g_ShaderID,"Model");
 	GLuint PhaseID = glGetUniformLocation(g_ShaderID,"Phase");
 	GLuint TimeID = glGetUniformLocation(g_ShaderID,"Time");
+	GLuint OuterID = glGetUniformLocation(g_ShaderID, "Outer");
+	GLuint InnerID = glGetUniformLocation(g_ShaderID, "Inner");
 
 	glUniformMatrix4fv(ProjectionID, 1, false, g_ProjectionMatrix);
 	glUniformMatrix4fv(ViewID, 1, false, g_ViewMatrix);
@@ -157,23 +168,11 @@ void Update()
 	sfTimer += fDeltaTime;
 	timeHolder = glfwGetTime();
 
-	// clear the visualiser so we can add shapes this frame
-	//Visualiser::Get()->Clear();
-	
-	//////////////////////////////////////////////////////////////////////////
-	// example visualiser use
-	// line shapes
-	//Visualiser::Get()->AddDisk(vec4(-4,-1,4,1),2,8,vec4(0,1,0,0));
-	//Visualiser::Get()->AddHermiteSpline(vec4(-2,0,-3,1),vec4(2,0,-3,1),vec4(0,5,0,0),vec4(2,0,0,0),10,vec4(1,1,0,1));
-
-
 	g_fPhase += fDeltaTime;
 	if(g_fPhase == 0){
 		g_fPhase += fDeltaTime;
 		//g_fPhase = -PI;
 	}
-	// tri shapes
-	//Visualiser::Get()->AddArc(vec4(0,0.5f,0,1),0,2,PI*0.25f,4,vec4(1,0,0,1),&g_ModelMatrix);
 	
 }
 
@@ -207,16 +206,7 @@ void Draw()
 	//g_ModelMatrix.row3 = vec4(-4,0,0,1);
 	//glUniformMatrix4fv(ModelID, 1, false, g_ModelMatrix);
 	glBindVertexArray(g_VAO);
-	glDrawElements(GL_TRIANGLE_STRIP, 100000, GL_UNSIGNED_INT, 0);
-
-	// draw the quad again at a different position
-	//g_ModelMatrix.row3 = vec4(4,0,0,1);
-	//glUniformMatrix4fv(ModelID, 1, false, g_ModelMatrix);
-	//glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-	//g_ModelMatrix.row3 = vec4(0,0,0,1);
-
-	// draw the visualiser shapes
-	//Visualiser::Get()->Draw(&g_ViewMatrix,&g_ProjectionMatrix);
+	glDrawElements(GL_PATCHES, 10, GL_UNSIGNED_INT, 0);
 }
 
 //////////////////////////////////////////////////////////////////////////

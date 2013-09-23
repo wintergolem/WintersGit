@@ -13,6 +13,8 @@ uniform float Time;
 uniform mat4 Projection;
 uniform mat4 View;
 uniform mat4 Model;
+uniform float Phase;
+
 void main()
 {
 	vec4 dir = vec4( cross( gl_in[1].gl_Position.xyz - gl_in[2].gl_Position.xyz,
@@ -25,32 +27,19 @@ void main()
 	for( int i = 0; i < 3 ; ++i)
 	{
 		if(i == 1)
-		{
 			gColor = vec4(1, greyShade, greyShade, 1);
-			vec4 position = (Projection * View * Model)* (gl_in[i].gl_Position + dir * Time);//(Projection * View * Model);
-			gl_Position = vec4(position.x, position.y+5*Time ,position.z, position.w); //* vec4(1,1,1,1);
-		
-			gUV = vUV[1];
-			EmitVertex();
-		}
 		else if (i == 2)
-		{
 			gColor = vec4(greyShade, 1, greyShade, 1);
-			vec4 position = (Projection * View * Model)* (gl_in[i].gl_Position + dir * Time);//(Projection * View * Model);
-			gl_Position = vec4(position.x +5*Time, position.y ,position.z, position.w); //* vec4(1,1,1,1);
-		
-			gUV = vUV[1];
-			EmitVertex();
-		}
 		else
-		{
 			gColor =vec4(greyShade, greyShade, 1, 1);
-			vec4 position = (Projection * View * Model)* (gl_in[i].gl_Position + dir * Time);//(Projection * View * Model);
-			gl_Position = vec4(position.x, position.y+2*Time ,position.z, position.w); //* vec4(1,1,1,1);
+		//gColor = vColor[1];
+		vec4 position = (Projection * View * Model)* (gl_in[i].gl_Position  );//(Projection * View * Model);
+		gl_Position = vec4( position.x+dir.x *Phase, position.y +dir.y*Phase , position.z +dir.z*Phase , position.w + dir.w*Phase); //* vec4(1,1,1,1);
+		//gl_Position = vec4( position.x+dir.x , position.y +dir.y , position.z +dir.z , position.w + dir.w);
+		//gl_Position = vec4( position.x, position.y , position.z , position.w); //* vec4(1,1,1,1);
 		
-			gUV = vUV[1];
-			EmitVertex();
-		}
+		gUV = vUV[1];
+		EmitVertex();
 		
 	}
 	EndPrimitive();
