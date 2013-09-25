@@ -52,5 +52,11 @@
     <None Include="shaders\vertex.glsl">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="shaders\TessControl.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\TessEval.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

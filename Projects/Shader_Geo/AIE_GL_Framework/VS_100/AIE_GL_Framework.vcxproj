@@ -107,6 +107,8 @@
   <ItemGroup>
     <None Include="shaders\Geometry.glsl" />
     <None Include="shaders\pixel.glsl" />
+    <None Include="shaders\TessControl.glsl" />
+    <None Include="shaders\TessEval.glsl" />
     <None Include="shaders\vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

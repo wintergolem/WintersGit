@@ -11,5 +11,6 @@ uniform sampler2D diffuseTexture;
 
 void main()
 {
-	outColor = texture(diffuseTexture, gUV);
+	outColor = gColor;
+	//outColor = texture(diffuseTexture, gUV);
 }

@@ -17,6 +17,7 @@ uniform float Phase;
 
 void main()
 {
+	float n = gl_InvocationID;
 	vec4 dir = vec4( cross( gl_in[1].gl_Position.xyz - gl_in[2].gl_Position.xyz,
 							gl_in[1].gl_Position.xyz - gl_in[0].gl_Position.xyz), 0);
 
@@ -26,12 +27,12 @@ void main()
 
 	for( int i = 0; i < 3 ; ++i)
 	{
-		if(i == 1)
-			gColor = vec4(1, greyShade, greyShade, 1);
-		else if (i == 2)
-			gColor = vec4(greyShade, 1, greyShade, 1);
-		else
-			gColor =vec4(greyShade, greyShade, 1, 1);
+		if(n == 0) gColor = vec4(0,0,1,0);
+		//if(mod(n, 5) == 0) gColor = vec4(0,0,1,0);
+		else if(n != 0) gColor = vec4(0,1,0,0);
+		else if(mod(n, 4) == 0) gColor = vec4(1,0,0,0);
+		else if(mod(n, 3) == 0) gColor = vec4(1,0,1,0);
+		else gColor = vec4(1,1,1,0);
 		//gColor = vColor[1];
 		vec4 position = (Projection * View * Model)* (gl_in[i].gl_Position  );//(Projection * View * Model);
 		gl_Position = vec4( position.x+dir.x *Phase, position.y +dir.y*Phase , position.z +dir.z*Phase , position.w + dir.w*Phase); //* vec4(1,1,1,1);
