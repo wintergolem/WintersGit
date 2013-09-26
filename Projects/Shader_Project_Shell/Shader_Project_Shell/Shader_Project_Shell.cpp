@@ -1,11 +1,11 @@
 // Shader_Project_Shell.cpp : main project file.
 
-#include "stdafx.h"
 
-using namespace System;
+#include "Quaternion.h"
 
-int main(array<System::String ^> ^args)
+
+int main()
 {
-    Console::WriteLine(L"Hello World");
+
     return 0;
 }
